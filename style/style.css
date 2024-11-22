@@ -1,0 +1,94 @@
+.column {
+    background: #fff;
+    border-radius: 8px;
+    border: 0.5px solid gray;
+    width: 23.29%;
+    transition: transform 0.2s ease-in-out;
+    margin: 12px;
+    padding: 10px;
+    /* Verhoog padding voor betere lay-out */
+    display: flex;
+    flex-direction: column;
+    /* Zorgt ervoor dat de inhoud netjes onder elkaar staat */
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 1em;
+    color: #007bff;
+    margin: 5px 0;
+}
+
+.add-to-cart-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: auto;
+    /* Zorgt ervoor dat de knop altijd onderaan de kaart staat */
+}
+
+.add-to-cart-btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.add-to-cart-btn span {
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+em {
+    font-family: fantasy;
+}
+
+.kolom {
+    float: left !important;
+    width: 31% !important;
+    margin: 10px !important;
+    background-color: rgba(206, 206, 206, 0.856) !important;
+    border-radius: 5px !important;
+}
+
+.row:after {
+    content: "" !important;
+    display: table !important;
+    clear: both !important;
+}
+
+th {
+    border-bottom: 2px solid black !important;
+}
+
+td {
+    border-bottom: 0.5px solid black !important;
+}
+
+th, td {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+body {
+    align-items: center;
+}
